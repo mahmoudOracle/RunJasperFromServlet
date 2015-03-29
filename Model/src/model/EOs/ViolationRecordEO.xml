@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="windows-1252" ?>
+<!DOCTYPE Entity SYSTEM "jbo_03_01.dtd">
+<!---->
+<Entity
+  xmlns="http://xmlns.oracle.com/bc4j"
+  Name="ViolationRecordEO"
+  Version="12.1.3.10.8"
+  InheritPersonalization="merge"
+  DBObjectType="table"
+  DBObjectName="VIOLATION_RECORD"
+  AliasName="ViolationRecordEO"
+  BindingStyle="OracleName">
+  <Attribute
+    Name="TimeDate"
+    Precision="20"
+    ColumnName="TIME_DATE"
+    SQLType="VARCHAR"
+    Type="java.lang.String"
+    ColumnType="VARCHAR2"
+    TableName="VIOLATION_RECORD"
+    PrimaryKey="true">
+    <DesignTime>
+      <Attr Name="_DisplaySize" Value="20"/>
+    </DesignTime>
+  </Attribute>
+  <Attribute
+    Name="UserName"
+    Precision="70"
+    ColumnName="USER_NAME"
+    SQLType="VARCHAR"
+    Type="java.lang.String"
+    ColumnType="VARCHAR2"
+    TableName="VIOLATION_RECORD"
+    PrimaryKey="true">
+    <DesignTime>
+      <Attr Name="_DisplaySize" Value="70"/>
+    </DesignTime>
+  </Attribute>
+  <Attribute
+    Name="ViolatingPerson"
+    Precision="70"
+    ColumnName="VIOLATING_PERSON"
+    SQLType="VARCHAR"
+    Type="java.lang.String"
+    ColumnType="VARCHAR2"
+    TableName="VIOLATION_RECORD"
+    PrimaryKey="true">
+    <DesignTime>
+      <Attr Name="_DisplaySize" Value="70"/>
+    </DesignTime>
+  </Attribute>
+  <Attribute
+    Name="VilolationType"
+    Precision="70"
+    ColumnName="VILOLATION_TYPE"
+    SQLType="VARCHAR"
+    Type="java.lang.String"
+    ColumnType="VARCHAR2"
+    TableName="VIOLATION_RECORD"
+    PrimaryKey="true">
+    <DesignTime>
+      <Attr Name="_DisplaySize" Value="70"/>
+    </DesignTime>
+  </Attribute>
+  <Attribute
+    Name="PenaltyType"
+    Precision="70"
+    ColumnName="PENALTY_TYPE"
+    SQLType="VARCHAR"
+    Type="java.lang.String"
+    ColumnType="VARCHAR2"
+    TableName="VIOLATION_RECORD"
+    PrimaryKey="true">
+    <DesignTime>
+      <Attr Name="_DisplaySize" Value="70"/>
+    </DesignTime>
+  </Attribute>
+  <Attribute
+    Name="Supervisor"
+    Precision="70"
+    ColumnName="SUPERVISOR"
+    SQLType="VARCHAR"
+    Type="java.lang.String"
+    ColumnType="VARCHAR2"
+    TableName="VIOLATION_RECORD"
+    PrimaryKey="true">
+    <DesignTime>
+      <Attr Name="_DisplaySize" Value="70"/>
+    </DesignTime>
+  </Attribute>
+  <Attribute
+    Name="DayDate"
+    ColumnName="DAY_DATE"
+    SQLType="DATE"
+    Type="java.sql.Timestamp"
+    ColumnType="DATE"
+    TableName="VIOLATION_RECORD"
+    PrimaryKey="true"/>
+  <Key
+    Name="ViolationrecordeoPrimaryKey"
+    PrimaryKey="true">
+    <DesignTime>
+      <Attr Name="_DBObjectName" Value="VIOLATIONRECORDEO_PRIMARY_KEY"/>
+    </DesignTime>
+    <AttrArray Name="Attributes">
+      <Item Value="model.EOs.ViolationRecordEO.TimeDate"/>
+      <Item Value="model.EOs.ViolationRecordEO.UserName"/>
+      <Item Value="model.EOs.ViolationRecordEO.ViolatingPerson"/>
+      <Item Value="model.EOs.ViolationRecordEO.VilolationType"/>
+      <Item Value="model.EOs.ViolationRecordEO.PenaltyType"/>
+      <Item Value="model.EOs.ViolationRecordEO.Supervisor"/>
+      <Item Value="model.EOs.ViolationRecordEO.DayDate"/>
+    </AttrArray>
+  </Key>
+</Entity>

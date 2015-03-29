@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.0.1.final using JasperReports Library version 6.0.0  -->
+<!-- 2015-03-27T01:11:29 -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="tasks" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="2da0a459-8381-495a-a8b5-b53639ba5b4b">
+	<property name="com.jaspersoft.studio.data.sql.tables" value="IkVNUExPWUVFX1RBU0tTIiBBUyAsNDYsMDs="/>
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="New Data Adapter "/>
+	<queryString>
+		<![CDATA[SELECT "EMPLOYEE_TASKS"."FULL_NAME",
+	"EMPLOYEE_TASKS"."SECTION",
+	"EMPLOYEE_TASKS"."HIRE_DATE",
+	"EMPLOYEE_TASKS"."NUMBER_OF_EMPLOYEES",
+	"EMPLOYEE_TASKS"."TASK_1",
+	"EMPLOYEE_TASKS"."TASK_2",
+	"EMPLOYEE_TASKS"."TASK_3",
+	"EMPLOYEE_TASKS"."TASK_4",
+	"EMPLOYEE_TASKS"."TASK_5",
+	"EMPLOYEE_TASKS"."TASK_6",
+	"EMPLOYEE_TASKS"."TASK_7",
+	"EMPLOYEE_TASKS"."TASK_8",
+	"EMPLOYEE_TASKS"."TASK_9",
+	"EMPLOYEE_TASKS"."TASK_10",
+	"EMPLOYEE_TASKS"."TASK_11",
+	"EMPLOYEE_TASKS"."TASK_12",
+	"EMPLOYEE_TASKS"."TASK_OTHER",
+	"EMPLOYEE_TASKS"."SUGGESTIONS"
+FROM "EMPLOYEE_TASKS"]]>
+	</queryString>
+	<field name="FULL_NAME" class="java.lang.String"/>
+	<field name="SECTION" class="java.lang.String"/>
+	<field name="HIRE_DATE" class="java.sql.Timestamp"/>
+	<field name="NUMBER_OF_EMPLOYEES" class="java.math.BigDecimal"/>
+	<field name="TASK_1" class="java.lang.String"/>
+	<field name="TASK_2" class="java.lang.String"/>
+	<field name="TASK_3" class="java.lang.String"/>
+	<field name="TASK_4" class="java.lang.String"/>
+	<field name="TASK_5" class="java.lang.String"/>
+	<field name="TASK_6" class="java.lang.String"/>
+	<field name="TASK_7" class="java.lang.String"/>
+	<field name="TASK_8" class="java.lang.String"/>
+	<field name="TASK_9" class="java.lang.String"/>
+	<field name="TASK_10" class="java.lang.String"/>
+	<field name="TASK_11" class="java.lang.String"/>
+	<field name="TASK_12" class="java.lang.String"/>
+	<field name="TASK_OTHER" class="java.lang.String"/>
+	<field name="SUGGESTIONS" class="java.lang.String"/>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="79" splitType="Stretch"/>
+	</title>
+	<pageHeader>
+		<band height="35" splitType="Stretch"/>
+	</pageHeader>
+	<columnHeader>
+		<band height="30" splitType="Stretch">
+			<staticText>
+				<reportElement x="0" y="0" width="45" height="30" uuid="e66727c6-171e-479e-bf49-10b2a48b30e4"/>
+				<textElement textAlignment="Center">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[FULL_NAME]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="45" y="0" width="30" height="30" uuid="0ca83e18-2bde-4f32-be90-01c8e427439a"/>
+				<textElement textAlignment="Center">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[SECTION]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="75" y="0" width="30" height="30" uuid="fb5016c2-5447-4f6e-9d8c-37f5ca979b45"/>
+				<textElement textAlignment="Center">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[HIRE_DATE]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="105" y="0" width="30" height="30" uuid="99e0c417-44ab-46b9-8400-a1572b077189"/>
+				<textElement textAlignment="Center">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[NUMBER_OF_EMPLOYEES]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="135" y="0" width="30" height="30" uuid="a4b05130-dfb9-4fd0-960f-804dc59f436e"/>
+				<textElement textAlignment="Center">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[TASK_1]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="165" y="0" width="30" height="30" uuid="ff175c29-7d97-4c14-9a22-eca7db022843"/>
+				<textElement textAlignment="Center">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[TASK_2]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="195" y="0" width="30" height="30" uuid="e49ee89b-d3c2-4f24-9d41-899b2cd17fa6"/>
+				<textElement textAlignment="Center">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[TASK_3]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="225" y="0" width="30" height="30" uuid="2d8dd94d-86f2-48cb-8bab-11adcf612455"/>
+				<textElement textAlignment="Center">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[TASK_4]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="255" y="0" width="30" height="30" uuid="c08714b0-2d32-4511-818e-3e6a4b340861"/>
+				<textElement textAlignment="Center">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[TASK_5]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="285" y="0" width="30" height="30" uuid="a9794ea6-1adf-468e-b1bc-756785295ad3"/>
+				<textElement textAlignment="Center">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[TASK_6]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="315" y="0" width="30" height="30" uuid="778914e6-f1ca-48b5-af9d-2efd885d67b0"/>
+				<textElement textAlignment="Center">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[TASK_7]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="345" y="0" width="30" height="30" uuid="d70a5004-2830-4eca-9f73-20ea24c8d5d4"/>
+				<textElement textAlignment="Center">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[TASK_8]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="375" y="0" width="30" height="30" uuid="b5c4b7cc-81bf-42c1-9d6a-1afc545ee4b2"/>
+				<textElement textAlignment="Center">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[TASK_9]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="405" y="0" width="30" height="30" uuid="1bf8c7d9-a4e0-4489-b38d-09013ffa2628"/>
+				<textElement textAlignment="Center">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[TASK_10]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="435" y="0" width="30" height="30" uuid="99150f15-c221-4dc5-b160-e2006acd2cfe"/>
+				<textElement textAlignment="Center">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[TASK_11]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="465" y="0" width="30" height="30" uuid="a3e364d0-4a11-4dbe-b65b-06b5686119e4"/>
+				<textElement textAlignment="Center">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[TASK_12]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="495" y="0" width="30" height="30" uuid="5d54a495-29b9-4a69-b076-2652bb7ae4d5"/>
+				<textElement textAlignment="Center">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[TASK_OTHER]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="525" y="0" width="30" height="30" uuid="772d5384-b2dd-4ac9-a708-1538bafae101"/>
+				<textElement textAlignment="Center">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[SUGGESTIONS]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="47" splitType="Stretch">
+			<textField>
+				<reportElement x="0" y="17" width="45" height="30" uuid="9a6a24dc-3ef0-4049-a8d2-84579e5f3eb7"/>
+				<textElement textAlignment="Center">
+					<font fontName="Arial Font" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{FULL_NAME}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="45" y="17" width="30" height="30" uuid="30cb23ba-9015-451b-bac6-5d246f7be25a"/>
+				<textElement textAlignment="Center">
+					<font fontName="Arial Font" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{SECTION}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="75" y="17" width="30" height="30" uuid="6dd9dc0c-c1bc-4677-91db-21ea21124028"/>
+				<textElement textAlignment="Center">
+					<font fontName="Arial Font" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{HIRE_DATE}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="105" y="17" width="30" height="30" uuid="146e0095-72d9-4d7c-9a35-366b83f47934"/>
+				<textElement textAlignment="Center">
+					<font fontName="Arial Font" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{NUMBER_OF_EMPLOYEES}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="135" y="17" width="30" height="30" uuid="c3ef9f5a-a6fc-4dee-bd3c-698155f41b70"/>
+				<textElement textAlignment="Center">
+					<font fontName="Arial Font" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{TASK_1}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="165" y="17" width="30" height="30" uuid="6e3a1b2e-ff34-4152-8f0f-f3a42679dddc"/>
+				<textElement textAlignment="Center">
+					<font fontName="Arial Font" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{TASK_2}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="195" y="17" width="30" height="30" uuid="1438f043-2b5e-4a01-a42c-e7c697084b6e"/>
+				<textElement textAlignment="Center">
+					<font fontName="Arial Font" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{TASK_3}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="225" y="17" width="30" height="30" uuid="9337e24f-a0d5-420a-b094-260f94ad5bbf"/>
+				<textElement textAlignment="Center">
+					<font fontName="Arial Font" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{TASK_4}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="255" y="17" width="30" height="30" uuid="6e911ca5-d388-49d5-bf32-28a732842a14"/>
+				<textElement textAlignment="Center">
+					<font fontName="Arial Font" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{TASK_5}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="285" y="17" width="30" height="30" uuid="71a417db-81d5-443b-8106-75bc42a1a933"/>
+				<textElement textAlignment="Center">
+					<font fontName="Arial Font" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{TASK_6}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="315" y="17" width="30" height="30" uuid="b59c08b1-8499-4362-b667-5d2b0e72a7c0"/>
+				<textElement textAlignment="Center">
+					<font fontName="Arial Font" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{TASK_7}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="345" y="17" width="30" height="30" uuid="344e8d5c-6dff-4e09-8a3a-d28a3fea2521"/>
+				<textElement textAlignment="Center">
+					<font fontName="Arial Font" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{TASK_8}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="375" y="17" width="30" height="30" uuid="c4d8d0eb-eb62-4320-ab47-ff6228b791e2"/>
+				<textElement textAlignment="Center">
+					<font fontName="Arial Font" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{TASK_9}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="405" y="17" width="30" height="30" uuid="bf111c7f-b834-44cd-9066-debd2501b1e5"/>
+				<textElement textAlignment="Center">
+					<font fontName="Arial Font" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{TASK_10}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="435" y="17" width="30" height="30" uuid="df9c00ca-de64-4c89-9831-bf5e225368f0"/>
+				<textElement textAlignment="Center">
+					<font fontName="Arial Font" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{TASK_11}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="465" y="17" width="30" height="30" uuid="883ef4a9-785d-47e5-92db-d262ca665dbc"/>
+				<textElement textAlignment="Center">
+					<font fontName="Arial Font" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{TASK_12}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="495" y="17" width="30" height="30" uuid="0db42a4b-7d89-4fff-8ae6-e899ba436103"/>
+				<textElement textAlignment="Center">
+					<font fontName="Arial Font" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{TASK_OTHER}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="525" y="17" width="30" height="30" uuid="1e03e6a3-3710-4926-8120-0e3c864f21a1"/>
+				<textElement textAlignment="Center">
+					<font fontName="Arial Font" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{SUGGESTIONS}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<columnFooter>
+		<band height="45" splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band height="54" splitType="Stretch"/>
+	</pageFooter>
+	<summary>
+		<band height="42" splitType="Stretch"/>
+	</summary>
+</jasperReport>

@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<xmi:XMI xmlns:xmi='http://www.omg.org/spec/XMI/20110701' xmlns:DI='http://xmlns.omg.org/DI/2.0'>
+  <documentation exporter='Oracle JDeveloper' exporterVersion='12.1.3.0.0'/>
+  <DI:Diagram xmi:type='DI:Diagram' xmi:id='id4ed3ad74-86a3-488a-a319-642c6a07e08c' zoom='0.0'>
+    <semanticModel xmi:type='DI:SimpleSemanticModelBridge' typeInfo='adfbc_diagram'/>
+  </DI:Diagram>
+</xmi:XMI>

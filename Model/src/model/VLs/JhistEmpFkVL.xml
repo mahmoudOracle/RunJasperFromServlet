@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="windows-1252" ?>
+<!DOCTYPE ViewLink SYSTEM "jbo_03_01.dtd">
+<!---->
+<ViewLink
+  xmlns="http://xmlns.oracle.com/bc4j"
+  Name="JhistEmpFkVL"
+  Version="12.1.3.10.8"
+  InheritPersonalization="merge"
+  EntityAssociation="model.Ass.JhistEmpFkAss">
+  <ViewLinkDefEnd
+    Name="Employees"
+    Cardinality="1"
+    Source="true"
+    Owner="model.VOs.EmployeesVO">
+    <DesignTime>
+      <Attr Name="_finderName" Value="Employees"/>
+      <Attr Name="_isUpdateable" Value="true"/>
+      <Attr Name="_minCardinality" Value="1"/>
+    </DesignTime>
+    <AttrArray Name="Attributes">
+      <Item Value="model.VOs.EmployeesVO.EmployeeId"/>
+    </AttrArray>
+  </ViewLinkDefEnd>
+  <ViewLinkDefEnd
+    Name="JobHistory"
+    Cardinality="-1"
+    Owner="model.VOs.JobHistoryVO">
+    <DesignTime>
+      <Attr Name="_finderName" Value="JobHistory"/>
+      <Attr Name="_isUpdateable" Value="true"/>
+    </DesignTime>
+    <AttrArray Name="Attributes">
+      <Item Value="model.VOs.JobHistoryVO.EmployeeId"/>
+    </AttrArray>
+  </ViewLinkDefEnd>
+</ViewLink>

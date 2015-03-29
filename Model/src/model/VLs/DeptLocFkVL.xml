@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="windows-1252" ?>
+<!DOCTYPE ViewLink SYSTEM "jbo_03_01.dtd">
+<!---->
+<ViewLink
+  xmlns="http://xmlns.oracle.com/bc4j"
+  Name="DeptLocFkVL"
+  Version="12.1.3.10.8"
+  InheritPersonalization="merge"
+  EntityAssociation="model.Ass.DeptLocFkAss">
+  <ViewLinkDefEnd
+    Name="Locations"
+    Cardinality="1"
+    Source="true"
+    Owner="model.VOs.LocationsVO">
+    <DesignTime>
+      <Attr Name="_finderName" Value="Locations"/>
+      <Attr Name="_isUpdateable" Value="true"/>
+    </DesignTime>
+    <AttrArray Name="Attributes">
+      <Item Value="model.VOs.LocationsVO.LocationId"/>
+    </AttrArray>
+  </ViewLinkDefEnd>
+  <ViewLinkDefEnd
+    Name="Departments"
+    Cardinality="-1"
+    Owner="model.VOs.DepartmentsVO">
+    <DesignTime>
+      <Attr Name="_finderName" Value="Departments"/>
+      <Attr Name="_isUpdateable" Value="true"/>
+    </DesignTime>
+    <AttrArray Name="Attributes">
+      <Item Value="model.VOs.DepartmentsVO.LocationId"/>
+    </AttrArray>
+  </ViewLinkDefEnd>
+</ViewLink>
